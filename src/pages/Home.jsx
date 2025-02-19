@@ -58,7 +58,7 @@ function Home() {
                   </Button>
                   <Button
                     variant="success"
-                    href="/Portfolio/dist/Jamaal%20Bernabe%20-%20Resume.pdf"
+                    href="/Portfolio/src/assets/Resume.pdf"
                     target="_blank"
                   >
                     Resume
