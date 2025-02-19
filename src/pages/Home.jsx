@@ -8,6 +8,7 @@ import {
   ButtonGroup,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Resume from "../assets/Jamaal Bernabe - Resume.pdf";
 
 import "../App.css";
 const githubUrl = import.meta.env.VITE_GITHUB_URL;
@@ -58,7 +59,8 @@ function Home() {
                   </Button>
                   <Button
                     variant="success"
-                    href="/Portfolio/src/assets/Resume.pdf"
+                    href={Resume}
+                    download="Jamaal Bernabe - Resume.pdf"
                     target="_blank"
                   >
                     Resume
