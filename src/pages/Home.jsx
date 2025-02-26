@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Button,
-  ButtonGroup,
-} from "react-bootstrap";
+import { Container, Row, Col, Card, Button, ButtonGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Resume from "../assets/Jamaal Bernabe - Resume.pdf";
 
@@ -41,13 +34,9 @@ function Home() {
                 </Card.Title>
 
                 <Card.Text className="text-center mx-lg-5">
-                  Software Developer with 3+ years of experience building
-                  scalable, high-performance applications in Python, Java, and
-                  Node.js. Proven expertise in designing RESTful APIs,
-                  optimizing database performance, and deploying cloud-based
-                  solutions on AWS and Azure. Adept at driving automation,
-                  implementing CI/CD pipelines, and leveraging AI-powered
-                  analytics to enhance system efficiency.
+                  Software Developer with 3+ years of experience building scalable, high-performance applications in Python, Java, and Node.js. Proven expertise in designing RESTful APIs, optimizing
+                  database performance, and deploying cloud-based solutions on AWS and Azure. Adept at driving automation, implementing CI/CD pipelines, and leveraging AI-powered analytics to enhance
+                  system efficiency.
                 </Card.Text>
                 <ButtonGroup aria-label="Basic example">
                   <Button variant="primary" href={githubUrl} target="_blank">
@@ -57,12 +46,7 @@ function Home() {
                   <Button variant="info" href={linkedinUrl} target="_blank">
                     LinkedIn
                   </Button>
-                  <Button
-                    variant="success"
-                    href={Resume}
-                    download="Jamaal Bernabe - Resume.pdf"
-                    target="_blank"
-                  >
+                  <Button variant="success" href={Resume} download="Jamaal Bernabe - Resume.pdf" target="_blank">
                     Resume
                   </Button>
                 </ButtonGroup>
