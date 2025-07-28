@@ -17,7 +17,7 @@ function Contact() {
               <Card.Text className="text-center">
                 GitHub:{" "}
                 <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                  @jnbernabe
+                  @JNBernabe
                 </a>
                 <br />
                 <p>
