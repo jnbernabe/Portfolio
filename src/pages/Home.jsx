@@ -35,14 +35,23 @@ function Home() {
 
                 <Card.Text className="text-center mx-lg-5">
                   <ListGroup>
-                                      <ListGroup.Item>•	Over 2 years of experience designing, developing, and testing web and software applications and REST APIs</ListGroup.Item>
                                       <ListGroup.Item>
-                                        •	Proficient in Java, C#, SQL, and JavaScript and technologies such as .NET, ASP.NET Core, Angular, and React
-                                      </ListGroup.Item><ListGroup.Item>
-                                        •	Experienced in cloud platforms like Microsoft Azure for APIs, databases, and orchestration
-                                      </ListGroup.Item><ListGroup.Item>
+                                        •	Over 2 years of experience designing, developing, and testing web and software applications and REST APIs
+                                        </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        •	Proficient in Java, Python, SQL, and JavaScript and technologies such as Angular, and React
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        •	Skilled at creating web designs and user experiences that are responsive and accessible
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
                                         •	Solid understanding of software design patterns, architectural best practices, and performance optimization techniques
-                                      </ListGroup.Item><ListGroup.Item>
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+•	Detail-oriented individual who works well in both team and individual environments
+                                      </ListGroup.Item>
+                                      
+                                      <ListGroup.Item>
                                         •	Effective verbal and written communication skills for working in Agile software development environments, and collaborating with cross-functional teams
                                       </ListGroup.Item>
                   </ListGroup>
