@@ -5,7 +5,7 @@ export const experience: Experience[] = [
     company: "Aficio AI",
     role: "Software Developer (Contract)",
     period: "Feb 2024 - Jun 2024",
-    tech: ["Python", "TypeScript", "Azure", "Docker", "Elasticsearch", "LLM Integrations"],
+    tech: ["Python", "Azure", "Docker", "Elasticsearch", "LLM Integrations"],
     achievements: [
       "Engineered ingestion architecture for 100+ unstructured sources, improving pipeline efficiency by 19%.",
       "Deployed containerized services to orchestrate analytics pipelines, boosting performance 33%.",

@@ -20,6 +20,14 @@ export const Footer = () => (
           Portfolio
         </a>
         <a
+          href="https://www.linkedin.com/in/jamaalbernabe/"
+          target="_blank"
+          rel="noreferrer"
+          className="transition hover:text-white"
+        >
+          LinkedIn
+        </a>
+        <a
           href="https://github.com/jnbernabe"
           target="_blank"
           rel="noreferrer"
