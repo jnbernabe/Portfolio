@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100 min-h-screen;
+    background-image: radial-gradient(circle at 20% 20%, rgba(125, 211, 252, 0.12), transparent 55%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(2, 6, 23, 1));
+  }
+
+  ::selection {
+    @apply bg-accent text-slate-950;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-accent-soft hover:text-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+
+  .section-card {
+    @apply rounded-3xl border border-white/5 bg-white/5 p-8 shadow-glow backdrop-blur;
+  }
+}
