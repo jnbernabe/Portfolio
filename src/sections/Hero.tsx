@@ -12,7 +12,7 @@ export const Hero = () => (
         Full-stack Developer & QA Engineer
       </span>
       <h1 className="font-display text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
-        Building resilient cloud-native platforms that keep data flowing.
+        Building resilient cloud-native platforms that keep data flowing
       </h1>
       <p className="max-w-2xl text-lg text-slate-300">
         I am Jamaal Bernabe, a Toronto-based developer blending full-stack engineering, automation, and DevOps to deliver clean, scalable solutions. I thrive on shipping reliable APIs, tightening feedback loops with automation, and translating complex requirements into intuitive experiences.

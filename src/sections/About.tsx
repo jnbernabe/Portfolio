@@ -11,7 +11,7 @@ export const About = () => (
     <div className="mx-auto grid max-w-content gap-12 md:grid-cols-[3fr,2fr] md:items-center">
       <div>
         <SectionHeading eyebrow="About">
-          Shipping dependable software with purpose.
+          Shipping dependable software with purpose
         </SectionHeading>
         <div className="space-y-6 text-base leading-relaxed text-slate-300">
           <p>

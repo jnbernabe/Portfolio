@@ -6,7 +6,7 @@ export const Experience = () => (
   <section id="experience" className="px-6 py-24">
     <div className="mx-auto max-w-content">
       <SectionHeading eyebrow="Experience">
-        Applying engineering rigor across data and QA.
+        Applying engineering rigor across data and QA
       </SectionHeading>
       <div className="space-y-8">
         {experience.map((item) => (

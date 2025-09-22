@@ -28,9 +28,9 @@ export const experience: Experience[] = [
   },
   {
     company: "Tribunals Ontario",
-    role: "System Support Officer",
+    role: "System Support Officer (Contract)",
     period: "Jan 2022 - Apr 2022",
-    tech: ["ServiceNow", "PowerShell", "Excel", "Asset Management"],
+    tech: ["Azure", "PowerShell", "Excel", "Asset Management"],
     achievements: [
       "Resolved cross-system incidents while meeting SLAs and raising client satisfaction scores.",
       "Designed Excel dashboards tracking 1,000+ assets, recovering $100K in misallocated equipment.",

@@ -5,7 +5,7 @@ export const Contact = () => (
     <div className="mx-auto max-w-content">
       <div className="section-card">
         <SectionHeading eyebrow="Let's Connect">
-          Ready to collaborate on your next build.
+          Ready to collaborate on your next build
         </SectionHeading>
         <p className="max-w-2xl text-sm leading-relaxed text-slate-300">
           I&apos;m currently exploring full-time and contract opportunities where I can apply cloud-native engineering, automation, and a user-focused mindset. Share what you&apos;re working on and I&apos;ll reply quickly.

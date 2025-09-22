@@ -6,7 +6,7 @@ export const Projects = () => (
   <section id="projects" className="px-6 py-24">
     <div className="mx-auto max-w-content">
       <SectionHeading eyebrow="Selected Work">
-        Bringing data, automation, and UX together.
+        Bringing data, automation, and UX together
       </SectionHeading>
       <div className="grid gap-8 md:grid-cols-2">
         {projects.map((project) => (

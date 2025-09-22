@@ -5,7 +5,7 @@ export const Skills = () => (
   <section id="skills" className="px-6 py-24">
     <div className="mx-auto max-w-content">
       <SectionHeading eyebrow="Capabilities">
-        Stack powering automation and delivery.
+        Stack powering automation and delivery
       </SectionHeading>
       <div className="grid gap-6 md:grid-cols-2">
         {skillCategories.map((category) => (
