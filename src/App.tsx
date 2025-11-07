@@ -6,8 +6,17 @@ import { Experience } from "@/sections/Experience";
 import { Hero } from "@/sections/Hero";
 import { Projects } from "@/sections/Projects";
 import { Skills } from "@/sections/Skills";
+import { useEffect } from "react";
+import ReactGA from 'react-ga4';
+
+
 
 const App = () => {
+  ReactGA.initialize('G-04B2BH6B9D');
+  useEffect(() => {
+    ReactGA.initialize('G-04B2BH6B9D');
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" });
+  }, []);
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
