@@ -1,3 +1,5 @@
+import { trackEvent } from "@/utils/analytics";
+
 export const Hero = () => (
   <section
     id="hero"
@@ -18,13 +20,18 @@ export const Hero = () => (
         I am Jamaal Bernabe, a Toronto-based developer blending full-stack engineering, automation, and DevOps to deliver clean, scalable solutions. I thrive on shipping reliable APIs, tightening feedback loops with automation, and translating complex requirements into intuitive experiences.
       </p>
       <div className="flex flex-wrap items-center gap-4">
-        <a href="#projects" className="btn-primary">
+        <a
+          href="#projects"
+          className="btn-primary"
+          onClick={() => trackEvent({ category: "Hero", action: "Click", label: "View Projects" })}
+        >
           View Projects
         </a>
         <a
           href={`${import.meta.env.BASE_URL}Jamaal_Bernabe_Resume.pdf`}
           download
           className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-white transition hover:border-accent hover:text-accent"
+          onClick={() => trackEvent({ category: "Hero", action: "Download", label: "Resume" })}
         >
           Download Resume
           <svg
@@ -45,6 +52,7 @@ export const Hero = () => (
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 text-sm font-semibold text-slate-200 transition hover:text-white"
+          onClick={() => trackEvent({ category: "Hero", action: "Click", label: "GitHub Profile" })}
         >
           Explore GitHub
           <svg

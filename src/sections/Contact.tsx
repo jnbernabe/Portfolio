@@ -39,7 +39,7 @@ export const Contact = () => (
             <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-accent-soft">
               LinkedIn
             </h3>
-            <p className="mt-2 text-lg font-semibold text-white">linkedin.com/in/jamaalbernabe</p>
+            <p className="mt-2 text-lg font-semibold text-white break-all">linkedin.com/in/jamaalbernabe</p>
             <p className="mt-3 text-sm text-slate-300">Connect to discuss opportunities, collaborations, and community work.</p>
           </a>
           <a

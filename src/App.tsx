@@ -12,10 +12,8 @@ import ReactGA from 'react-ga4';
 
 
 const App = () => {
-  ReactGA.initialize('G-04B2BH6B9D');
   useEffect(() => {
-    ReactGA.initialize('G-04B2BH6B9D');
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" });
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
   return (
     <div className="flex min-h-screen flex-col">

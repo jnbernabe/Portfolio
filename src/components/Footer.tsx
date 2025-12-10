@@ -1,3 +1,5 @@
+import { trackEvent } from "@/utils/analytics";
+
 export const Footer = () => (
   <footer className="border-t border-white/5 bg-slate-950/80">
     <div className="mx-auto flex max-w-content flex-col gap-6 px-6 py-8 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
@@ -8,6 +10,7 @@ export const Footer = () => (
         <a
           href="mailto:JNBernabe@gmail.com"
           className="transition hover:text-white"
+          onClick={() => trackEvent({ category: "Footer", action: "Contact", label: "Email" })}
         >
           Email
         </a>
@@ -16,6 +19,7 @@ export const Footer = () => (
           target="_blank"
           rel="noreferrer"
           className="transition hover:text-white"
+          onClick={() => trackEvent({ category: "Footer", action: "Click", label: "Portfolio" })}
         >
           Portfolio
         </a>
@@ -24,6 +28,7 @@ export const Footer = () => (
           target="_blank"
           rel="noreferrer"
           className="transition hover:text-white"
+          onClick={() => trackEvent({ category: "Footer", action: "Social", label: "LinkedIn" })}
         >
           LinkedIn
         </a>
@@ -32,6 +37,7 @@ export const Footer = () => (
           target="_blank"
           rel="noreferrer"
           className="transition hover:text-white"
+          onClick={() => trackEvent({ category: "Footer", action: "Social", label: "GitHub" })}
         >
           GitHub
         </a>

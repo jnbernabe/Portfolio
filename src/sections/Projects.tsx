@@ -1,6 +1,7 @@
 import { Badge } from "@/components/Badge";
 import { SectionHeading } from "@/components/SectionHeading";
 import { projects } from "@/data/projects";
+import { trackEvent } from "@/utils/analytics";
 
 export const Projects = () => (
   <section id="projects" className="px-6 py-24">
@@ -35,6 +36,7 @@ export const Projects = () => (
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 transition hover:text-white"
+                  onClick={() => trackEvent({ category: "Projects", action: "Click", label: `Live: ${project.title}` })}
                 >
                   View live
                   <svg
@@ -57,6 +59,7 @@ export const Projects = () => (
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 transition hover:text-white"
+                  onClick={() => trackEvent({ category: "Projects", action: "Click", label: `Repo: ${project.title}` })}
                 >
                   GitHub
                   <svg
