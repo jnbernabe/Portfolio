@@ -22,7 +22,7 @@ export const Hero = () => (
           View Projects
         </a>
         <a
-          href="/Jamaal_Bernabe_Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Jamaal_Bernabe_Resume.pdf`}
           download
           className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-white transition hover:border-accent hover:text-accent"
         >
