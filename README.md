@@ -1,48 +1,44 @@
 # Portfolio 2025
 
-A modern, single-page portfolio site built with React, TypeScript, Vite, and Tailwind CSS. The layout focuses on clarity, credibility, and conversion for product-focused frontend engineers.
+**Building resilient cloud-native platforms that keep data flowing.**
 
-## Features
+I am **Jamaal Bernabe**, a Toronto-based developer blending full-stack engineering, automation, and DevOps to deliver clean, scalable solutions. I thrive on shipping reliable APIs, tightening feedback loops with automation, and translating complex requirements into intuitive experiences.
 
-- Responsive, accessible layout with polished typography and motion-ready structure
-- Modular sections (Hero, About, Experience, Projects, Skills, Contact) backed by typed content data
-- Tailwind CSS utilities with custom theme tokens for consistent visuals
-- Mobile navigation drawer and smooth scrolling between sections
-- Ready for deployment on Netlify, Vercel, Cloudflare Pages, or static hosting
+## 🚀 Projects
 
-## Getting started
+### Music Insights
+A powerful visual analytics dashboard designed to help music lovers understand their Spotify playlists on a deeper level. By analyzing audio features, patterns, and listening habits, it transforms raw data into a beautiful, interactive "Deep Space" themed experience.
+- **Stack**: Django, Python, Spotify API
 
-1. Install dependencies:
+### STMV - Spotify to YouTube Playlist Generator
+End-to-end app that migrates Spotify playlists into curated YouTube music video collections with API rate limiting and retry safeguards.
+- **Stack**: React, TypeScript, Node.js, Express, Spotify API, YouTube API
 
+---
+
+## 💻 About this Repository
+
+This is a modern, single-page portfolio site built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. The layout focuses on clarity, credibility, and conversion for product-focused frontend engineers.
+
+### Features
+- Responsive, accessible layout with polished typography.
+- Modular sections (Hero, About, Experience, Projects, Skills, Contact).
+- Tailwind CSS utilities with custom theme tokens.
+
+### Getting Started
+
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the local development server:
-
+2. **Start local server:**
    ```bash
    npm run dev
    ```
 
-3. Build for production:
-
+3. **Build for production:**
    ```bash
    npm run build
    ```
 
-4. Preview the production build locally:
-
-   ```bash
-   npm run preview
-   ```
-
-## Customization tips
-
-- Update hero copy, social links, and contact details in the section components under `src/sections` and `src/components`.
-- Modify the project, experience, and skill entries in `src/data` to reflect your work.
-- Tailwind theme tokens, fonts, and shadows live in `tailwind.config.ts` and `src/index.css`.
-- The Vite alias `@` resolves to `src`, keeping imports tidy when you add new modules.
-
-## Deployment
-
-Run `npm run build` and deploy the generated `dist` folder. Vite outputs a fully static bundle suitable for most hosting providers.
