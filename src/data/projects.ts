@@ -7,7 +7,7 @@ export const projects: Project[] = [
     period: "Nov 2025 - Dec 2025",
     tech: ["Django", "Python", "HTML", "CSS", "JavaScript", "Spotify API"],
     liveUrl: "https://musicinsights.onrender.com/",
-    repoUrl: "https://github.com/jnbernabe/music-insights",
+    repoUrl: "https://github.com/jnbernabe/musicinsights",
     imageUrl: "MusicInsightsGif.gif"
   },{
     title: "Spotify to YouTube Playlist Generator",
