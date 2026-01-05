@@ -11,7 +11,7 @@ export const Hero = () => (
         <div className="pointer-events-none absolute -top-20 right-[-30%] h-96 w-96 rounded-full bg-accent/30 blur-[120px]" />
       </div>
       <span className="rounded-full border border-white/10 bg-white/5 px-4 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-accent-soft">
-        Full-stack Developer | Data Analyst | QA Engineer
+        Software Developer | Data Analyst | QA Engineer | Customer Support Expert
       </span>
       <h1 className="font-display text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
         Building resilient cloud-native platforms that keep data flowing
