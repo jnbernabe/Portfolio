@@ -2,23 +2,19 @@ import type { SkillCategory } from "@/types/content";
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: "Languages",
-    skills: ["Java", "Python", "JavaScript", "TypeScript", "SQL", "C#"]
+    title: "Automation & Scripting",
+    skills: ["Python", "PowerShell/Bash", "REST APIs", "JSON", "Data Ingestion", "CI/CD Pipelines"]
   },
   {
-    title: "Frameworks & Tools",
-    skills: ["React", "Angular", "Node.js", "Express.js", ".NET", "Selenium", "JUnit", "Postman", "Docker"]
+    title: "Observability & Monitoring",
+    skills: ["Dashboard Creation", "Structured Logging", "Performance Metrics", "Root Cause Analysis", "Data Visualization"]
   },
   {
-    title: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQL Server"]
+    title: "Cloud & Infrastructure",
+    skills: ["Azure", "AWS", "Docker", "Linux", "SQL", "APM Concepts"]
   },
   {
-    title: "Cloud & DevOps",
-    skills: ["Azure", "AWS", "GCP", "CI/CD", "Jenkins", "Azure DevOps"]
-  },
-  {
-    title: "Practices",
-    skills: ["REST APIs", "Microservices", "Agile/Scrum", "Elastic Stack", "TDD", "Pandas", "NumPy"]
+    title: "QA & Testing",
+    skills: ["Regression Testing", "Unit Testing", "Integration Testing", "STLC", "Test Plans", "Defect Tracking"]
   }
 ];

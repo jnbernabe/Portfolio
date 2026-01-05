@@ -3,7 +3,7 @@ import { trackEvent } from "@/utils/analytics";
 export const Hero = () => (
   <section
     id="hero"
-    className="relative overflow-hidden px-6 py-24 sm:py-28"
+    className="relative overflow-hidden px-6 py-12 sm:py-17"
   >
     <div className="mx-auto flex max-w-content flex-col items-start gap-10">
       <div className="absolute inset-0 -z-10">

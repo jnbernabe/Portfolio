@@ -20,6 +20,7 @@ export interface Project {
   tech: string[];
   liveUrl?: string;
   repoUrl?: string;
+  imageUrl?: string;
 }
 
 export interface SkillCategory {

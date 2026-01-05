@@ -4,7 +4,7 @@ import { projects } from "@/data/projects";
 import { trackEvent } from "@/utils/analytics";
 
 export const Projects = () => (
-  <section id="projects" className="px-6 py-24">
+  <section id="projects" className="px-6 py-12">
     <div className="mx-auto max-w-content">
       <SectionHeading eyebrow="Selected Work">
         Bringing data, automation, and UX together
@@ -20,6 +20,15 @@ export const Projects = () => (
               <h3 className="font-display text-2xl font-semibold text-white">
                 {project.title}
               </h3>
+              {project.imageUrl && (
+                <div className="overflow-hidden rounded-lg border border-white/10 bg-white/5">
+                  <img 
+                    src={`${import.meta.env.BASE_URL}${project.imageUrl}`}
+                    alt={`${project.title} demo`} 
+                    className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                  />
+                </div>
+              )}
               <p className="text-sm leading-relaxed text-slate-300">
                 {project.description}
               </p>

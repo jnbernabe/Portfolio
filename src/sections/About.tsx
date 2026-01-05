@@ -1,24 +1,24 @@
 import { SectionHeading } from "@/components/SectionHeading";
 
 const highlights = [
-  "Contract developer for AI and data teams, including Aficio AI",
-  "Comfortable across JavaScript, Java, Python, and cloud platforms",
-  "Blend of product intuition, QA rigor, and DevOps discipline"
+  "Specialized background in Artificial Intelligence and Data Engineering",
+  "Proven track record optimizing data pipelines and building observability",
+  "Combines Python automation with rigorous scientific integrity"
 ];
 
 export const About = () => (
-  <section id="about" className="px-6 py-24">
+  <section id="about" className="px-6 py-12">
     <div className="mx-auto grid max-w-content gap-12 md:grid-cols-[3fr,2fr] md:items-center">
       <div>
         <SectionHeading eyebrow="About">
-          Shipping dependable software with purpose
+          Delivering high-integrity data solutions
         </SectionHeading>
         <div className="space-y-6 text-base leading-relaxed text-slate-300">
           <p>
-            I&apos;m Jamaal Bernabe, a Toronto-based full-stack software developer who builds scalable experiences for data-heavy teams. My background spans automation, cloud infrastructure, and end-user applications, grounded in a commitment to clean code and measurable impact.
+            I&apos;m Jamaal Bernabe, a Software Developer and Data Analyst with a specialized background in Artificial Intelligence and Data Engineering. I combine strong Python automation skills with a rigorous scientific background to deliver accurate, high-integrity data solutions.
           </p>
           <p>
-            Recent work includes architecting ingestion pipelines for 100+ unstructured sources, integrating LLM-powered insights, and hardening QA suites that support faster releases. I thrive in collaborative environments where product, engineering, and operations intersect.
+            At Aficio AI, I optimized data pipelines by 19% through automated ingestion of unstructured sources and built observability dashboards to visualize system performance. I focus on reducing latency, integrating ML components, and ensuring reproducible, well-monitored codebases.
           </p>
           <div className="flex flex-col gap-3 rounded-3xl border border-white/5 bg-white/5 p-6 shadow-glow backdrop-blur">
             {highlights.map((highlight) => (

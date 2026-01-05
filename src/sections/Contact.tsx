@@ -1,7 +1,7 @@
 import { SectionHeading } from "@/components/SectionHeading";
 
 export const Contact = () => (
-  <section id="contact" className="px-6 py-24">
+  <section id="contact" className="px-6 py-12">
     <div className="mx-auto max-w-content">
       <div className="section-card">
         <SectionHeading eyebrow="Let's Connect">
@@ -43,7 +43,7 @@ export const Contact = () => (
             <p className="mt-3 text-sm text-slate-300">Connect to discuss opportunities, collaborations, and community work.</p>
           </a>
           <a
-            href="/Jamaal%20Bernabe%20Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Jamaal_Bernabe_Resume.pdf`}
             download
             className="rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:border-accent hover:text-white"
           >

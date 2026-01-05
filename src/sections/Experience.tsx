@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { experience } from "@/data/experience";
 
 export const Experience = () => (
-  <section id="experience" className="px-6 py-24">
+  <section id="experience" className="px-6 py-12">
     <div className="mx-auto max-w-content">
       <SectionHeading eyebrow="Experience">
         Applying engineering rigor across data and QA
