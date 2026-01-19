@@ -15,7 +15,7 @@ export const Projects = () => (
             <div className="space-y-5">
               <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.3em] text-accent-soft">
                 <span>{project.period}</span>
-                <span>Case Study</span>
+                <span>Project</span>
               </div>
               <h3 className="font-display text-2xl font-semibold text-white">
                 {project.title}
