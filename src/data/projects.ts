@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description: "NaviGrade is a web application that helps students navigate their academic journey by providing personalized insights and recommendations based on their academic performance and goals.",
     period: "January 2026",
     tech: ["React", "TypeScript", "Node.js", "Express", "Tailwind CSS", "Vite"],
-    liveUrl: "https://navigrade.netlify.app/",
+    liveUrl: "https://jnbernabe.github.io/NaviGrade/",
     repoUrl: "https://github.com/jnbernabe/navigrade",
     imageUrl: "NaviGradeGIF.gif"
   },
