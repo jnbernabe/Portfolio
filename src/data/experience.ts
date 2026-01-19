@@ -4,7 +4,7 @@ export const experience: Experience[] = [
   {
     company: "Aficio AI",
     role: "Software Developer",
-    period: "Feb 2024 - Jun 2024",
+    period: "Feb 2024 - Dec 2025",
     tech: ["Python", "Azure", "Docker", "Elasticsearch", "LLM Integrations"],
     achievements: [
       "Built observability dashboards to visualize system performance metrics, enabling stakeholders to identify bottlenecks.",
