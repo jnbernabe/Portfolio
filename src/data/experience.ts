@@ -13,10 +13,10 @@ export const experience: Experience[] = [
       "LLM Integrations"
     ],
     "achievements": [
-      "Increased data throughput by 19% by engineering Python automation scripts to ingest data from 100+ unstructured sources",
-      "Reduced query latency by 25% by integrating Machine Learning components into analytics workflows, directly optimizing application performance",
-      "Architected observability dashboards to visualize system performance metrics, enabling stakeholders to identify bottlenecks and improve operational health",
-      "Standardized operational procedures and technical documentation to ensure reproducible, well-monitored codebases"
+      "Increased data throughput by 19% by engineering Python automation scripts to ingest and normalize data from 100+ unstructured sources in an Azure environment",
+      "Optimized analytics workflows by integrating machine learning components, resulting in a 25% reduction in query latency",
+      "Architected observability dashboards using Azure Monitor to visualize system performance metrics, enabling rapid identification of operational bottlenecks",
+      "Standardized technical documentation and operational procedures to ensure reproducible codebases and maintainable cloud infrastructure"
     ]
   },
   {
@@ -31,9 +31,10 @@ export const experience: Experience[] = [
       "REST APIs"
     ],
     "achievements": [
-      "Implemented structured logging and data validation scripts to increase system observability and traceability across test pipelines",
-      "Designed automated validation scripts against REST APIs to function as synthetic monitoring, proactively detecting service anomalies",
-      "Diagnosed root causes of software defects and documented findings to resolve integration issues in production environments"
+      "Reduced manual testing effort by 50% by architecting and automating 100+ test cases using Java and Selenium",
+      "Optimised test execution and dependency management by implementing Maven and Gradle, streamlining the build process for the QA team",
+      "Boosted test stability by 33% by leading the migration of 500+ legacy test cases from Java 8 to Java 17",
+      "Validated system scalability under high demand by designing and executing performance load tests on REST APIs using JMeter"
     ]
   },
   {
@@ -47,8 +48,8 @@ export const experience: Experience[] = [
       "Asset Management"
     ],
     "achievements": [
-      "Recovered $100,000 in assets by automating manual data workflows and identifying resource allocation patterns",
-      "Constructed analytics dashboards to track the status of 1,000+ assets, providing senior leadership with real-time visibility into operational resources"
+      "Recovered $100,000 in assets by automating manual data workflows and identifying resource misallocations",
+      "Constructed analytics dashboards to track the status of 1,000+ IT assets, providing leadership with real-time visibility into inventory and operational resources"
     ]
   },
   {
@@ -61,8 +62,10 @@ export const experience: Experience[] = [
       "Regulatory Compliance"
     ],
     "achievements": [
-      "Validated regulatory compliance by performing detailed data investigations, supporting root-cause analysis for non-conformance events",
-      "Maintained technical documentation and operational standards in a fast-paced production environment"
+      "Validated regulatory compliance by performing detailed data investigations, supporting root-cause analysis for non-conformance events PROJECTS Music Insights | Django, Python, Data Analysis, REST APIs",
+      "Engineered a data visualization platform that parses Spotify user data to generate interactive \"Mood Maps\" and radar charts, visualizing the emotional landscape of playlists STMV (Spotify to YouTube Generator) | React, TypeScript, Node.js, REST APIs",
+      "Developed a full-stack web application to automate playlist migration by integrating Spotify and YouTube APIs for seamless data transfer",
+      "Optimized front-end rendering performance using React and TypeScript, achieving a 30% reduction in load times and enhancing user experience"
     ]
   }
 ];
